@@ -20,7 +20,7 @@ const create = (req, res) => {
         <script> 
       function redirectToSecret(token) {
         sessionStorage.setItem('token', '${token}');
-        window.location.href = 'http://localhost:3000/secret?token=' + token;
+        window.location.href = 'https://fby-system-back.onrender.com/secret?token=' + token;
       }
         </script>
     </body>
