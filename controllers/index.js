@@ -33,7 +33,7 @@ const create = (req, res) => {
 const secret = (req, res) => {
   res.send(`
         <h1>Excelente!, conseguiste llegar a la ruta secreta!</h1>
-        <img src="/images/giphy.gif" alt="GIF secreto">`);
+        <img src="/giphy.gif" alt="GIF secreto">`);
 };
 
 export const controllers = {
